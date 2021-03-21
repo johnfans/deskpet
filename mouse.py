@@ -6,7 +6,7 @@ import random
 from video import *
 
 
-
+#这里修改鼠标交互条件
 def mouseing(event,x,y,flags,param):
     if event == cv2.EVENT_LBUTTONDOWN and x>=300 and x<=700 and y<=650:
         r=random.randint(0,2)
